@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - Klinik</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+        /* Menu */
+        
+        .menu {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+        
+        .logo {
+            height: 50px;
+        }
+        
+        .menu ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menu a {
+            font-family: Arial, sans-serif;
+            color: black;
+            text-decoration: none;
+        }
+        
+        .menu a:hover {
+            color: blue;
+        }
+        /* Header */
+        
+        .header-img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .content {
+            display: flex;
+        }
+        /* Section */
+        
+        section {
+            background-color: #eef5ff;
+            padding: 20px;
+            width: 50%;
+        }
+        
+        .content p {
+            font-family: "Times New Roman", serif;
+            font-size: 13px;
+            color: black;
+        }
+        
+        .contact-form {
+            background-color: antiquewhite;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+        }
+        
+        .contact-form button {
+            padding: 10px;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .contact-form button {
+            background-color: blue;
+            color: #eef5ff;
+        }
+        /* Aside */
+        
+        aside {
+            width: 50%;
+            padding: 20px;
+        }
+        
+        aside p {
+            font-family: "Times New Roman", serif;
+            font-size: 13px;
+            color: black;
+        }
+        
+        .aside-img {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        
+        .job-item {
+            display: flex;
+        }
+        /* Footer */
+        
+        footer {
+            background-color: #1a2c50;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Menu -->
+        <nav class="menu">
+            <img src="../img/logo.PNG" alt="Logo Klinik" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- Header -->
+        <header>
+            <img src="../img/header.JPG" alt="Header Image" class="header-img">
+        </header>
+
+        <div class="content">
+            <!-- Section -->
+            <section>
+                <h1>Have any Query? Please Contact US!</h1>
+                <p>
+                    Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
+                </p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit"><strong>Send Message</strong></button>
+                </form>
+            </section>
+            <!-- Aside -->
+            <aside>
+                <div class="job-item">
+                    <img src="../img/hinhthoi.JPG" alt="hinthoi1">
+                    <h3>Product Manager</h3>
+                </div>
+
+                <div class="job-item">
+                    <img src="../img/hinhthoi.JPG" alt="hinthoi2">
+                    <h3>Full Stacked Dev</h3>
+                </div>
+
+                <img src="../img/map.JPG" alt="Aside Image" class="aside-img">
+            </aside>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <p><i>23648141_TrinhDangLoi_DHTTTT19ATT</i></p>
+        </footer>
+    </div>
+</body>
+
+</html>
